@@ -33,5 +33,4 @@ set(QT_LIBRARY_DIR "${QT_ROOT}lib")
 set(CMAKE_PREFIX_PATH ${QT_ROOT})
 
 # Sub-directories where more CMakeLists.txt exist
-add_subdirectory(Web2Pic/FrontEnd)
 add_subdirectory(Web2Pic)

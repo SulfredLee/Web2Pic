@@ -15,14 +15,11 @@ file(GLOB Project_src
 
 include_directories(
   .
-  ./FrontEnd
   ${QT_INCLUDE_DIR})
 
 add_executable(Web2Pic ${Project_src})
-add_dependencies(Web2Pic FrontEnd)
 
 target_link_libraries(Web2Pic
-  FrontEnd
   ${Qt5WebEngineWidgets_LIBRARIES}
   ${Qt5Core_LIBRARIES}
   ${Qt5Core_QTMAIN_LIBRARIES}
